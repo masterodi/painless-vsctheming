@@ -1,6 +1,6 @@
 {
   "name": "painless-vsctheming",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Create your own Visual Studio Code Theme without the pain",
   "keywords": [
     "vscode",
@@ -26,8 +26,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c",
-    "publish": "npm publish --access public"
+    "build": "rollup -c"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.2.3",
