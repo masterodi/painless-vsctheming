@@ -1,6 +1,6 @@
 {
   "name": "painless-vsctheming",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Create your own Visual Studio Code Theme without the pain",
   "keywords": [
     "vscode",
