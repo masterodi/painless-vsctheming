@@ -48,7 +48,7 @@ export default class Theme {
       name,
       {
         background: new Color(props.background, { brighten: 0.2, darken: 0.1 }),
-        foreground: new Color(props.foreground, { darken: 2 }),
+        foreground: new Color(props.foreground, { darken: 1.2 }),
         accent: new Color(props.accent),
         border: props.border,
       },
