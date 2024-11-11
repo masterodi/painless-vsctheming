@@ -47,9 +47,16 @@ export default class Theme {
     const theme = new Theme(
       name,
       {
-        background: new Color(props.background, { brighten: 0.2, darken: 0.1 }),
-        foreground: new Color(props.foreground, { darken: 1.2 }),
-        accent: new Color(props.accent),
+        background: new Color({
+          base: {
+            hex: props.background,
+            brightnessStep: { brighten: 0.2, darken: 0.1 },
+          },
+        }),
+        foreground: new Color({
+          base: { hex: props.foreground, brightnessStep: { darken: 1.2 } },
+        }),
+        accent: new Color({ base: { hex: props.accent } }),
         border: props.border,
       },
       props.tokens
